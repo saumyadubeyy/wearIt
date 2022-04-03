@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wearIt/static/css/main.85cc8c36.css",
+    "main.js": "/wearIt/static/js/main.72de6ed6.js",
+    "static/media/babystages.jpg": "/wearIt/static/media/babystages.238861e61d370534172c.jpg",
+    "static/media/blob.svg": "/wearIt/static/media/blob.a447e25ab46ed10511ca.svg",
+    "index.html": "/wearIt/index.html",
+    "static/media/blobBg.svg": "/wearIt/static/media/blobBg.9ccf3ccc9ef4abd2c182.svg",
+    "main.85cc8c36.css.map": "/wearIt/static/css/main.85cc8c36.css.map",
+    "main.72de6ed6.js.map": "/wearIt/static/js/main.72de6ed6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85cc8c36.css",
+    "static/js/main.72de6ed6.js"
+  ]
+}
