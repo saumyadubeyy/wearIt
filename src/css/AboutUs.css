@@ -1,0 +1,47 @@
+.members {
+    padding-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding-bottom: 2vw;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    background-image: url("../assets/blobBg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img {
+    width: 4vw;
+}
+
+
+.socials img {
+    width: 1.5vw;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vw;
+    padding-top: 0.5vw;
+}
+
+.member .name {
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.member .position {
+    font-weight: 500;
+    font-size: 1.2vw;
+}
