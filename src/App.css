@@ -1,7 +1,22 @@
 .app {
     background-color: #FFF8F5;
+    min-height: 100vh;
 }
 
-* {
-    
+.error {
+    font-size: 1.1vw;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    gap: 1vw;
+    background-image: url("./assets/blob.svg");
+    background-position: top;
+}
+
+.error span {
+    font-size: 1.3vw;
+    font-weight: 600;
 }

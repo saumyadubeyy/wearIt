@@ -8,7 +8,7 @@ import girl from "../assets/girl.png"
 
 const AboutUs = () => {
   return (
-    <div className='about-us'>
+    <div id='our-team' className='about-us'>
         <div className='heading'>Our Team</div>
         <div className='members'>
         <div className='member'>
@@ -56,6 +56,11 @@ const AboutUs = () => {
             </div>
         </div>
         </div>
+        <div className='text'>
+            We are a team of 4 young people in the pre-final year of DIT University, Dehradun. Together, we aim to provide hassle-free experience to parents who have babies/toddlers who quickly grow out of their clothes in a very short period of time.
+            <br /><i className='subtext'>For more details, contact us at <span><a href='mailto:1000013818@dit.edu.in'>@wearIt@gmail.com</a></span></i>
+        </div>
+        
     </div>
   )
 }

@@ -8,6 +8,7 @@
 .logo {
     font-size: 2.5vw;
     font-weight: 600;
+    color: #000000;
 }
 
 .menu {
@@ -34,4 +35,13 @@
     background-color: #000000;
     padding: 0.5vw 0.8vw;
     border-radius: 0.5vw;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link {
+    text-decoration: none;
 }

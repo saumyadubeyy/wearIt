@@ -45,3 +45,19 @@
     font-weight: 500;
     font-size: 1.2vw;
 }
+
+.text {
+    text-align: center;    
+    font-weight: 500;
+    padding: 3vw 12vw;
+}
+
+.text span a{
+    color: #F5A123;
+    text-decoration: none;
+}
+
+
+.text .subtext {
+    line-height: 5vw;
+}

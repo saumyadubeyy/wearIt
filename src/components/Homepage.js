@@ -15,9 +15,9 @@ const Homepage = () => {
             <div className='text'>Presenting <span className='wear-it'><span style={{color: "#F5A123"}}>wear</span>It</span><sub><img className='wohoo' src={Wohoo}  alt=" " /></sub></div>
         </div>
         <img className='baby-stages' src={BabyStages} alt=" " />
-        <div className='heading'>What do we provide?</div>
+        <div id='features' className='heading'>What do we provide?</div>
         {/* <img className='blob' src={Blob} alt=" " /> */}
-        <div className='features'>
+        <div id="features" className='features'>
             <div>
                 <div className='feature'>
                     <span style={{color: "#F5A123"}}>wear</span>It aims to provide clothes on rent on a subscription basis. 
@@ -39,7 +39,7 @@ const Homepage = () => {
                 </div>
             </div>
         </div>
-        <div className='try-wear-it'>
+        <div id='try-it' className='try-wear-it'>
             <div className='try-text'>
                 Try <span className='wear-it'><span style={{color: "#F5A123"}}>wear</span>It</span>
                 <br /><span className='try-sub-text'>Enjoy a delightful experience, every time.</span>
@@ -67,6 +67,9 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className='text'>
+            <i className='subtext'>For more details, contact us at <span><a href='mailto:1000013818@dit.edu.in'>@wearIt@gmail.com</a></span></i>
         </div>
     </div>
   )
